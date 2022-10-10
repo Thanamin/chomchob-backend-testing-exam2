@@ -7,9 +7,6 @@ const Bundle = sequelize.define('bundle', {
       primaryKey: true,
       defaultValue: Sequelize.UUIDV4
    },
-   description: {
-      type: Sequelize.STRING
-   },
    price: {
       type: Sequelize.INTEGER,
    }

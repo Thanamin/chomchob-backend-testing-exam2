@@ -14,8 +14,12 @@ const Item = sequelize.define('item', {
    price: {
       type: Sequelize.INTEGER,
       allowNull: false
-   }
-   ,
+   },
+   detail: {
+      type: Sequelize.STRING,
+      allowNull: false
+
+   },
    startDate: {
       type: Sequelize.DATE,
       allowNull: false
