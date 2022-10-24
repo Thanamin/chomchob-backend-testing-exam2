@@ -23,4 +23,5 @@ const PromotionBundle = sequelize.define('promotionBundle', {
 
 PromotionBundle.sync({alter:true});
 
-export default PromotionBundle;
+
+module.exports = PromotionBundle;

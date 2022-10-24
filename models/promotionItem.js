@@ -23,4 +23,5 @@ const PromotionItem = sequelize.define('promotionItem', {
 
 PromotionItem.sync({alter:true});
 
-export default PromotionItem;
+
+module.exports = PromotionItem;

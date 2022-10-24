@@ -14,4 +14,4 @@ const Bundle = sequelize.define('bundle', {
 
 Bundle.sync({alter:true});
 
-export default Bundle
+module.exports = Bundle;

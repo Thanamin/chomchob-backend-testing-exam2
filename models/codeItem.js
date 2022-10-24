@@ -12,4 +12,4 @@ const CodeItem = sequelize.define('codeItem', {
 CodeItem.sync({alter:true});
 
 
-export default CodeItem
+module.exports = CodeItem;

@@ -32,4 +32,5 @@ const Item = sequelize.define('item', {
 
 Item.sync({alter:true});
 
-export default Item
+
+module.exports = Item;
